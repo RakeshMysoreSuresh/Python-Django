@@ -23,5 +23,4 @@ urlpatterns = [
     path('about/', views.about),
     path('', views.homepage),
     path('articles/', include('articles.urls'))
-
 ]
