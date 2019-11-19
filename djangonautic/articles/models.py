@@ -7,5 +7,5 @@ class Article(models.Model):
     slug = models.SlugField()
     body = models.TextField()
     date = models.DateField(auto_now_add=True)
-    # thumnail
+    #thumnail
     # author
